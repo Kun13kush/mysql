@@ -39,3 +39,15 @@ spec:
                   name: sql
             - name: MYSQL_DATABASE
               value: spring
+
+---
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: sql
+type: Opaque
+data:
+  MYSQL_ROOT_PASSWORD: ZGF0OTVndXkK
+  MYSQL_PASSWORD: ZGF0OTVndXkK
+  MYSQL_USER: a3VubGUK
