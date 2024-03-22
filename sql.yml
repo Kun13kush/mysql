@@ -48,6 +48,6 @@ metadata:
   name: sql
 type: Opaque
 data:
-  MYSQL_ROOT_PASSWORD: ZGF0OTVndXkK
+  MYSQL_ROOT_PASSWORD: ZGF0OTVndXkxMiM=
   MYSQL_PASSWORD: ZGF0OTVndXkK
   MYSQL_USER: a3VubGUK
