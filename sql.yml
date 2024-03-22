@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: mysql
+  name: springmysql
 spec:
   replicas: 2
-  serviceName: mysql
+  serviceName: springmysql
   selector:
     matchLabels:
-      app: mysql
+      app: springmysql
   template:
     metadata:
       labels:
-        app: mysql
+        app: springmysql
     spec:
       terminationGracePeriodSeconds: 10
       containers:
